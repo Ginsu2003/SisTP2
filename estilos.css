@@ -1,0 +1,61 @@
+html {
+ background: url('../img/fondo.jpg') no-repeat center center fixed; 
+ background-size: cover;
+}
+
+body {
+ margin-left: 100px; 
+ margin-right: 100px; 
+ margin-top: 80px; 
+ margin-bottom: 80px;
+ padding-left: 100px; 
+ padding-right: 100px; 
+ padding-top: 50px; 
+ padding-bottom: 50px;
+ font-family: arial, helvetica, sans-serif;
+ font-size: 15px;
+ color: #006000;
+ background-color: rgba(192, 255, 192, .85);
+ border-radius: 20px;
+}
+.RadioGroup label {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.2em;
+}
+.RadioGroup label input[type="radio"] {
+  display: block;
+  margin: 0.5em auto;
+}
+a {
+ color: #006000;
+ text-decoration: none;
+ font-weight:bold;
+}
+
+a:hover {
+ color: #00C000;
+ text-decoration: underline;
+ font-weight:bold;
+}
+
+#foto {
+  background-color: #ffc;
+  text-align: left;
+  font-family: verdana;
+  border-width: 0;
+  padding: 5px;
+  border: 1px dotted #fa0;
+  margin: 5px;
+  height: 270px;
+  width: 270px;
+}
+
+.centrado {
+  text-align:center;
+}
+
+.tecnos {
+ background: url('../img/tecnos.png') no-repeat center top;
+ background-size: contain; 
+}
